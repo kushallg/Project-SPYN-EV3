@@ -46,7 +46,7 @@ while 1
         pause(2.0);
         brick.StopAllMotors();
         brick.beep();
-        run('rmt.m');
+        run('rmctrl.m');
         pause(3.0);
         targetcolor = 2;
     end
